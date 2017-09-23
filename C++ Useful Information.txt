@@ -1,0 +1,32 @@
+Sign for exam before 25 September
+
+Exam 5 November 2017
+Exam Tasks
+6 задачи за 4 часа с judge система
+Задача с прости сметки (без проверки)
+Задача с единична проверка
+Задача с по-сложни проверки
+Задача с единичен цикъл
+Задача за чертане на фигурка на конзолата
+Задача с по-сложни цикли
+
+C++ libraries
+#include "stdafx.h"
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <math.h>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+
+	return 0;
+}
+
+How to cout one char many times -> string(times, char);
+How to use PI -> #define M_PI (3.14159265358979323846)
+How to print a number to 2 decimal places -> printf("%.2f", number); if you want a new line use \n, use fd for 01
+transform(product.begin(), product.end(), product.begin(), ::tolower); include the last 3 libraries -> #include <stdio.h>, #include <ctype.h>, #include <algorithm>
