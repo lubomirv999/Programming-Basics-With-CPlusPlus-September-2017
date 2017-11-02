@@ -17,6 +17,7 @@ C++ libraries
 #include <string>
 #include <math.h>
 #include <cmath>
+#include <climits>
 
 using namespace std;
 
@@ -30,3 +31,9 @@ How to cout one char many times -> string(times, char);
 How to use PI -> #define M_PI (3.14159265358979323846)
 How to print a number to 2 decimal places -> printf("%.2f", number); if you want a new line use \n, use fd for 01
 transform(product.begin(), product.end(), product.begin(), ::tolower); include the last 3 libraries -> #include <stdio.h>, #include <ctype.h>, #include <algorithm>
+print string with arguments - printf("You are %s %s %s %d \n", first_name.c_str(), last_name.c_str(), town.c_str(), age);
+Rounding - cout << fixed << setprecision(2) << one << endl;
+If we want to print 01 - if (secs < 10) { cout << minuts << ":0" << left_seconds << endl;} else { cout << minuts << ":" << left_seconds << endl;}
+int max = INT_MIN;
+getline(cin, input); - we can use input.length(), input[i]
+used for printing chars - putchar(ourChar); - prints the last char if its a string - if we are using chars tolower(ourChar)
