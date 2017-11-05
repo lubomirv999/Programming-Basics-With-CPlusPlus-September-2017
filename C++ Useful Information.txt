@@ -37,4 +37,4 @@ If we want to print 01 - if (secs < 10) { cout << minuts << ":0" << left_seconds
 int max = INT_MIN;
 getline(cin, input); - we can use input.length(), input[i]
 used for printing chars - putchar(ourChar); - prints the last char if its a string - if we are using chars tolower(ourChar)
-
+super_crazy_passw0rd
